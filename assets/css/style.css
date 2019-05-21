@@ -1,3 +1,8 @@
+a {
+    color: #777;
+    text-decoration: none;
+}
+
 body {
     background-image: url("background.png");
     margin: 0px;
@@ -14,8 +19,7 @@ h1 {
     left: 160px;
     text-align: center;
     width: 350px; 
-    
-     
+         
 }
 
 h2 {
@@ -43,20 +47,15 @@ footer {
     display: block;
     height: 40px;
     padding: 0px; 
-    position: absolute;
+    position: fixed;
     text-align: center;
     width: 100%;    
     
 }
 
-p {
+p, label {
     color: #777;
 }
-
-a {
-    color: #777;
-}
-
 
 .container {
     margin: auto;
@@ -76,9 +75,121 @@ a {
     padding-right: 10px;
 }
 
-#main-bio {
+.portfolio1, .portfolio2 {
+    position: relative;
+    float: left;
+}
+
+.portfolio3 {
+    clear: both;
+    position: relative;
+    float: left;
+    top: 30px;
+}
+
+.portfolio4 {
+    position: relative;
+    float: left;
+    top: 30px;
+}
+
+.portfolio5 {
+    clear: both;
+    position: relative;
+    float: left;
+    top: 60px;
+    margin-bottom: 100px;
+}
+
+.hangman {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    margin: 0px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.rpg {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    margin: 0px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.trivia {
+    clear: both;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    margin: 0px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.rutgers {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    margin: 0px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.rock {
+    clear: both;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    margin: 0px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#main-bio, #contact {
     background-color: #fff;
     border: solid 1px #ddd;
     padding: 10px;
     
+}
+
+#portfolio {
+    background-color: #fff;
+    border: solid 1px #ddd;
+    padding: 10px;
+    height: 770px;
+    
+    
+}
+
+#name, #email, #message {
+    width: 100%;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    border: solid #4aaaa5;
+    color: #fff;
 }
