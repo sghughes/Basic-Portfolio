@@ -40,7 +40,7 @@ header {
 
 footer {
     background-color: #666;
-    border-top: 3px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     bottom: 0;
     box-sizing: border-box;
     color: #777;
@@ -55,6 +55,7 @@ footer {
 
 p, label {
     color: #777;
+    line-height: 2;
 }
 
 .container {
@@ -172,6 +173,7 @@ p, label {
     background-color: #fff;
     border: solid 1px #ddd;
     padding: 10px;
+    margin-bottom: 50px;
     
 }
 
@@ -192,4 +194,5 @@ p, label {
     background-color: #4aaaa5;
     border: solid #4aaaa5;
     color: #fff;
+    margin-bottom: 20px;
 }
