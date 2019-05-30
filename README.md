@@ -1,2 +1,5 @@
 # Basic-Portfolio
-Building a Wireframe | UW Coding Boot Camp Assignment #1
+Building a Wireframe | That Portfolio Though
+
+## Overview
+A basic portfolio with About Me, Portfolio, and Contact pages.
